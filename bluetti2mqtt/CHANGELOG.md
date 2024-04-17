@@ -1,11 +1,11 @@
 ## [1.4.1] - 2023-05-13
 
-- Bump bluetti_mqtt to version 0.15.0.
+- Bump bluetti_mqtt2 to version 0.15.0.
 
 ## [1.4.0] - 2023-03-20
 
-- Bump bluetti_mqtt to version 0.12.0.
-- Add [discovery mode](https://github.com/warhammerkid/bluetti_mqtt#reverse-engineering).
+- Bump bluetti_mqtt2 to version 0.12.0.
+- Add [discovery mode](https://github.com/GHCMIS/bluetti_mqtt2#reverse-engineering).
 - Reconfigure configuration parameters.
 
 ## [1.3.0] - 2023-03-14
@@ -22,7 +22,7 @@
 
 ## [1.2.0] - 2023-02-15
 
-- Pin bluetti_mqtt to specific version.
+- Pin bluetti_mqtt2 to specific version.
 - Switch config files from json to yaml.
 - Reconfigure run.sh to allow --scan to be run in DEBUG mode.
 - Setup MQTT auto-configuration.
