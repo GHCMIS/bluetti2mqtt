@@ -5,7 +5,7 @@ FROM $BUILD_FROM
 COPY rootfs /
 
 # Install git
-RUN apt-get install -y git
+RUN apk update && \ apk upgrade && \ apk add git
 
 # Install bluetti_mqtt2
 RUN pip install git+https://github.com/GHCMIS/bluetti_mqtt2.git@main \
