@@ -4,6 +4,9 @@ FROM $BUILD_FROM
 # Copy data for add-on
 COPY rootfs /
 
+# Install git
+RUN apt-get install -y git
+
 # Install bluetti_mqtt2
 RUN pip install git+https://github.com/GHCMIS/bluetti_mqtt2.git@main \
 	&& apk add --update --no-cache \
