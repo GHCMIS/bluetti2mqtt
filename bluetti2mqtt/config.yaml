@@ -2,7 +2,7 @@
 name: Bluetti to MQTT
 version: 1.4.1
 slug: bluetti2mqtt
-description: GHC Custom Bluetti to MQTT
+description: GHC - Custom Bluetti to MQTT
 url: https://github.com/GHCMIS/bluetti2mqtt
 arch:
   - aarch64
