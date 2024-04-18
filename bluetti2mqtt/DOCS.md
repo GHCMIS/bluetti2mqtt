@@ -1,4 +1,4 @@
-# Bluetti2MQTT
+# Bluetti2MQTT - GHC
 
 MQTT bridge between Bluetti and Home Assistant.
 
