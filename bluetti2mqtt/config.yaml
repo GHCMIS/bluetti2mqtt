@@ -1,6 +1,6 @@
 ---
 name: Bluetti to MQTT
-version: 1.4.1
+version: 1.4.2
 slug: bluetti2mqtt
 description: GHC - Custom Bluetti to MQTT -
 url: https://github.com/GHCMIS/bluetti2mqtt
@@ -27,6 +27,7 @@ options:
   ha_config: normal
   bt_mac: 00:11:22:33:44:55
   poll_sec: 30
+  ac200l_expansion_packs: false
   scan: false
   debug: false
 schema:
@@ -38,5 +39,6 @@ schema:
   ha_config: list(normal|none|advanced)
   bt_mac: match(^([0-9A-Fa-f]{2}[:]){5}[0-9A-Fa-f]{2}( ([0-9A-Fa-f]{2}[:]){5}[0-9A-Fa-f]{2})*$)
   poll_sec: int
+  ac200l_expansion_packs: bool
   scan: bool
   debug: bool

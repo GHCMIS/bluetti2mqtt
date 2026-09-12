@@ -42,6 +42,12 @@ ___
 
 > Polling interval in seconds.
 
+### Optional: `ac200l_expansion_packs`
+
+> Enable if your AC200L has expansion batteries attached. Defaults to off for standalone operation, which polls the internal battery without switching packs. Turning it on restores polling and Home Assistant discovery for up to three packs. Applies to all AC200L devices in MQTT and logger modes; other models are unaffected. Restart the add-on after changing this setting.
+
+> Discovery, logger, and scan modes do not require MQTT configuration. In MQTT mode, set `mqtt_host` explicitly if automatic broker discovery is unavailable.
+
 ### Required: `ha_config`
 
 > What fields to configure in Home Assistant - defaults to most fields ("normal"), see [here](https://github.com/GHCMIS/bluetti_mqtt2#home-assistant-integration).
